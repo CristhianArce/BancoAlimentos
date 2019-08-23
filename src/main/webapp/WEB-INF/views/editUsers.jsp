@@ -24,6 +24,7 @@
 	</head>
 	<body>
 		<h1>Input Form</h1>
+                <a href="/BancoAlimentos">volver</a>
 		<form:form action="addUser" method="post" modelAttribute="user">
 			<table>
 				<tr>
@@ -59,5 +60,6 @@
 				</tr>
 			</c:forEach>
 		</table>
+                
 	</body>
 </html>
